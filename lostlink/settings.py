@@ -13,7 +13,7 @@ ALLOWED_HOSTS = [
     host.strip()
     for host in os.environ.get(
         "ALLOWED_HOSTS",
-        "web-production-2df6b.up.railway.app,.up.railway.app,localhost,127.0.0.1",
+        "web-production-2df6b.up.railway.app,.up.railway.app,localhost,127.0.0.1,.vercel.app",
     ).split(",")
     if host.strip()
 ]
@@ -22,7 +22,7 @@ CSRF_TRUSTED_ORIGINS = [
     origin.strip()
     for origin in os.environ.get(
         "CSRF_TRUSTED_ORIGINS",
-        "https://web-production-2df6b.up.railway.app,https://*.up.railway.app,http://localhost,http://127.0.0.1",
+        "https://web-production-2df6b.up.railway.app,https://*.up.railway.app,http://localhost,http://127.0.0.1,https://*.vercel.app",
     ).split(",")
     if origin.strip()
 ]
