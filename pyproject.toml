@@ -1,2 +1,2 @@
 [tool.vercel]
-entrypoint = "lostlink/wsgi.py"
+entrypoint = "app.py"

@@ -8,7 +8,7 @@
       }
     },
     {
-      "src": "lostlink/wsgi.py",
+      "src": "app.py",
       "use": "@vercel/python"
     }
   ],
@@ -19,7 +19,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "lostlink/wsgi.py"
+      "dest": "app.py"
     }
   ]
 }
