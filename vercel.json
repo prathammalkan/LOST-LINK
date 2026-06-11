@@ -1,4 +1,5 @@
 {
+  "buildCommand": "python migrate_and_setup.py",
   "builds": [
     {
       "src": "app.py",
