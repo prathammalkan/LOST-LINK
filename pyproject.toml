@@ -1,0 +1,2 @@
+[tool.vercel.scripts]
+build = "python migrate_and_setup.py"

@@ -11,3 +11,7 @@ package-lock.json
 package.json
 
 .vercel
+.env.development.local
+.env.production.local
+.env.local
+.env
