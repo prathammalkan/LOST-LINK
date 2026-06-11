@@ -4,5 +4,10 @@ db.sqlite3
 media/
 .venv/
 venv/
+venv_new/
 env/
+node_modules/
+package-lock.json
+package.json
 
+.vercel
